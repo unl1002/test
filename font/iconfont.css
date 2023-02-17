@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1675958044180') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gift__easyico:before {
+  content: "\e51c";
+}
+
+.icon-liwu:before {
+  content: "\e601";
+}
+
+.icon-bojuelvpaiicontilian_huabanfuben:before {
+  content: "\e605";
+}
+

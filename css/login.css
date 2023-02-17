@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 850px;
+}
+
+.header {
+    position: absolute;
+    height: 90px;
+    width: 100%;
+    z-index: 10;
+}
+
+.header img {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.left_header img{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 1300px;
+    top: 30px;
+}
+
+.left_header p{
+    position: absolute;
+    left: 1330px;
+    font-size: 12px;
+    top: 34px;
+}
+
+.left_header p:hover{
+    color: #f22e00;
+}
+
+.content {
+    background: url("../image/gb.jpg") no-repeat;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+}
+
+.typeBox {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 115px;
+    left: 160px;
+    background-color: hsla(0, 0%, 100%, .9);
+}
+
+.typeBox.hidden {
+    display: none;
+}
+
+.top_box p{
+    position: absolute;
+    top: 20px;
+    font-size: 13px;
+    color: darkorange;
+    left: 200px;
+}
+
+.top_box img{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 300px;
+    top: 10px;
+}
+
+.bt {
+    z-index: 8;
+    border: none;
+}
+
+.bt1 {
+    position: absolute;
+    top: 160px;
+    left: 290px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bt2 {
+    position: absolute;
+    top: 160px;
+    left: 200px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bt.active {
+    color: darkorange;
+}
+
+.input1 {
+    position: absolute;
+    top: 100px;
+    height: 40px;
+    width: 200px;
+    left: 90px;
+}
+
+.input2 {
+    position: absolute;
+    top: 160px;
+    height: 40px;
+    width: 200px;
+    left: 90px;
+}
+
+.bt_bottom {
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    top: 230px;
+    left: 50px;
+    font-size: 14px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    transition: 0.5s linear;
+    border-radius: 6px;
+}
+
+.bt_bottom:hover {
+    background-color: orange;
+}
+
+.user {
+    height: 40px;
+    width: 40px;
+    background-color: #eee;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.password {
+    height: 40px;
+    width: 40px;
+    background-color: #eee;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+}
+
+.phone {
+    height: 40px;
+    width: 40px;
+    background-color: #eee;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.yzm {
+    height: 40px;
+    width: 40px;
+    background-color: #eee;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+}
+
+.weibo img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 285px;
+    left: 48px;
+}
+
+.weibo p {
+    position: absolute;
+    top: 287px;
+    font-size: 13px;
+    color: #6c6c6c;
+    left: 73px;
+}
+
+.weibo p:hover {
+    color: orange;
+}
+
+.zfb img {
+    position: absolute;
+    height: 20px;
+    width: 27px;
+    top: 286px;
+    left: 140px;
+}
+
+.zfb p {
+    position: absolute;
+    top: 287px;
+    font-size: 13px;
+    color: #6c6c6c;
+    left: 165px;
+}
+
+.zfb p:hover {
+    color: orange;
+}
+
+.bottom .p1 {
+    position: absolute;
+    top: 320px;
+    font-size: 10px;
+    color: #6c6c6c;
+    left: 140px;
+}
+
+.bottom .p2 {
+    position: absolute;
+    top: 320px;
+    font-size: 10px;
+    color: #6c6c6c;
+    left: 200px;
+}
+
+.bottom .p3 {
+    position: absolute;
+    top: 320px;
+    font-size: 10px;
+    color: #6c6c6c;
+    left: 270px;
+}
+
+.foot {
+    position: absolute;
+    height: 170px;
+    top: 680px;
+    width: 100%;
+}
+
+.fp1 {
+    color: #6c6c6c;
+    position: absolute;
+    left: 230px;
+    font-size: 13px;
+    bottom: 130px;
+}
+
+.fp1_ {
+    color: #9c9c9c;
+    position: absolute;
+    font-size: 13px;
+    bottom: 130px;
+    right: 300px;
+}
+
+.fp2 {
+    color: #6c6c6c;
+    position: absolute;
+    left: 230px;
+    font-size: 13px;
+    bottom: 100px;
+}
+
+.fp2_ {
+    color: #9c9c9c;
+    position: absolute;
+    font-size: 13px;
+    bottom: 100px;
+    right: 160px;
+}
+
+.fp3 {
+    color: #9c9c9c;
+    position: absolute;
+    font-size: 13px;
+    bottom: 70px;
+    right: 160px;
+}
+
+.foot img {
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+}
